@@ -1,0 +1,56 @@
+
+body {
+  font-family: arial, sans-serif;
+	 font-size: 16px;
+}
+
+/* Add a Border Box color "gray" to the top navigation */
+
+nav{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #a9a9a9;
+     font-family: arial, sans-serif;
+	 font-size: 14px;
+    
+}
+
+.logo {
+	
+	color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+	font-size: 20px;    
+}
+
+/* Style the links inside the navigation bar */
+.topnav {
+	display: flex;
+    justify-content: space-around;
+	width: 35%;
+	letter-spacing: 2px;
+    font-size: 16px;
+	
+          
+}
+/* Style imgae box and text bov side by side */
+.imagebox {
+  float: left;
+  width:50%;
+
+}
+
+.textbox {
+  float: right;
+  width:50%;
+  height: 450px;
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+footer {
+  display: block;
+  background-color: #a9a9a9;
+}
