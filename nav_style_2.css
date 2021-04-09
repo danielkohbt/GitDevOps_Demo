@@ -10,7 +10,7 @@ nav{
      display: flex;
      justify-content: space-around;
      align-items: center;
-     background-color: #a9a9a9;
+     background-color: #92dff3;
      font-family: arial, sans-serif;
 	 font-size: 14px;
     
@@ -51,6 +51,10 @@ nav{
 }
 
 footer {
-  display: block;
-  background-color: #a9a9a9;
+  border:1px solid orange;
+  position: relative;
+  padding:5px;
+  margin-top:20px;
+  font-size:16px;
+  background-color: #92dff3;
 }
